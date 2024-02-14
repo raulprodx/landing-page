@@ -1,0 +1,87 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+.top-container {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 500px;
+    width: 100%;
+}
+
+header {
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.main-container {
+    width: 80%;
+    margin: 0 auto;
+    height: 420px;
+    display: flex;
+}
+
+.left-container, .right-container  {
+    width: 49.99%;
+    height: 100%;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-container .main-title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.left-container .main-subtitle {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 5px;
+}
+
+.left-container .main-button {
+    margin-top: 15px;
+}
+
+.main-title, .main-subtitle {
+    padding-right: 15%;
+}
+
+.right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
