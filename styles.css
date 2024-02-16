@@ -112,3 +112,28 @@ nav ul {
     height: auto;
     text-align: center;
 }
+
+.quote-container {
+    margin: 0;
+    background: #E5E7EB;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.quote-container .quote-textbox {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-container .author {
+    width: 100%;
+    text-align: end;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+}
