@@ -50,7 +50,7 @@ nav ul {
     justify-content: center;
 }
 
-.left-container .main-title {
+.left-container .main-title h1 {
     font-size: 48px;
     font-weight: bold;
 }
@@ -84,4 +84,31 @@ nav ul {
     font-weight: bold;
     font-size: 18px;
     cursor: pointer;
+}
+
+.second-title h2 {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.second-container .boxes-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 80px;
+}
+
+.second-container .box img {
+    height: 160px;
+    border: 4px solid #3882F6;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.second-container .boxes-container .text-box {
+    width: 160px;
+    height: auto;
+    text-align: center;
 }
