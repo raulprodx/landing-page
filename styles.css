@@ -181,5 +181,14 @@ nav ul {
     margin: 0;
 }
 
-
+footer {
+    height: 80px;
+    width: 100%;
+    color: #fff;
+    background: #1F2937;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
