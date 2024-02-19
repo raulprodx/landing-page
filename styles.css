@@ -122,9 +122,8 @@ nav ul {
 }
 
 .quote-container .quote-textbox {
-    width: 50%;
+    width: 55%;
     margin: 0 auto;
-    text-align: center;
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
@@ -137,3 +136,50 @@ nav ul {
     font-style: normal;
     font-weight: bold;
 }
+
+.action-container {
+    width: 80%;
+    background-color: #3882F6;
+    height: 150px;
+    margin: 130px auto;
+    border-radius: 5px;
+}
+
+.action-content {
+    width: 69%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.action-text {
+    width: 70%;
+    font-size: 24px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subtitle-action {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.action-button {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.action-button button {
+    border: 2px solid #fff;
+}
+
+.title-action, .subtitle-action {
+    margin: 0;
+}
+
+
+
